@@ -1,48 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        ul {
-            list-style-type: none;
+        *{
             margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
         }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
 
-        li {
-            float: left;
-        }
+      li {
+        float: left;
+      }
 
-        li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
 
-        li a:hover {
-            background-color: #111;
-        }
+      li a:hover {
+        background-color: #111;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <navbar>
-        <ul>
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="#news">News</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#about">About us</a></li>
-          </ul>
-          
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#activity">Activity</a></li>
+        <li><a href="#table">Table</a></li>
+        <li><a href="#footer">Follow Us</a></li>
+      </ul>
     </navbar>
-</body>
 
+    <header id="activity">
+      <h1>ABC Scrum Activity</h1>
+      <h2>Team</h2>
+      <ul>
+        <li>Robert Anderson</li>
+        <li>Steven Castro</li>
+        <li>Melissa Averinos</li>
+      </ul>
+    </header>
+    <main>
+      <hr />
+      <section>
+        <h3>Letter A</h3>
+        <p>A is for Anchor</p>
+        <img
+          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Jq49Y0lS2OsuDJt-zZ8pSgHaHa%26pid%3DApi&f=1&ipt=8ef3b68e6a33345ffbce3cd048a31a505fffe7652e9da3a8de7ef7780e6cf8a7&ipo=images"
+          alt="anchor"
+        />
+      </section>
+      <hr />
+    </main>
+    <h2>Add a border to a table:</h2>
+
+    <table id="table">
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+      </tr>
+      <tr>
+        <td>Peter</td>
+        <td>Griffin</td>
+      </tr>
+      <tr>
+        <td>Lois</td>
+        <td>Griffin</td>
+      </tr>
+    </table>
+    <footer id="footer">
+        <h1 style="text-align: center;">Follow us</h1>
+        <p>My ontribution for my issue I, simulating that the user wants to contact us in social medias</p>
+        
+    </footer>
+  </body>
 </html>
